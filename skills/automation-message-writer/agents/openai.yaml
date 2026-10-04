@@ -1,0 +1,7 @@
+interface:
+  display_name: "Automation Message Writer"
+  short_description: "Interactive message writing for nontechnical clients"
+  icon_small: "./assets/automation-message-writer.png"
+  icon_large: "./assets/automation-message-writer.png"
+  brand_color: "#D2BED1"
+  default_prompt: "Use $automation-message-writer to guide me through the details needed to write client-facing automation messages. Ask for missing inputs and clarify unclear statuses before drafting."

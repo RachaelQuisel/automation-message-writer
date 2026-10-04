@@ -1,0 +1,17 @@
+{
+  "name": "automation-message-writer",
+  "version": "0.1.0",
+  "description": "Interactively turn automation results into finished interface messages that nontechnical clients understand.",
+  "author": {
+    "name": "Rachael Quisel"
+  },
+  "keywords": [
+    "automation",
+    "interface-copy",
+    "plain-english",
+    "zite",
+    "client-messages"
+  ],
+  "displayName": "Automation Message Writer",
+  "icon": "./assets/automation-message-writer.png"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "automation-message-writer",
+  "version": "0.1.0",
+  "description": "Interactively turn automation results into finished interface messages that nontechnical clients understand.",
+  "author": {
+    "name": "Rachael Quisel"
+  },
+  "keywords": [
+    "automation",
+    "interface-copy",
+    "plain-english",
+    "zite",
+    "client-messages"
+  ],
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Automation Message Writer",
+        "shortDescription": "Interactive message writing for nontechnical clients",
+        "longDescription": "Make every result make sense. Share an automation result, answer focused questions, and get finished interface messages. The plugin clarifies unclear statuses and uses the included Voice Align writing rules.",
+        "developerName": "Rachael Quisel",
+        "category": "Productivity",
+        "capabilities": [],
+        "defaultPrompt": [
+          "Use $automation-message-writer to help me write client-facing automation messages. Ask me for the details you need."
+        ],
+        "brandColor": "#D2BED1"
+      }
+    }
+  }
+}
