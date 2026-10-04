@@ -1,6 +1,6 @@
 # Automation Message Writer
 
-I built this plugin to help automation builders write messages their clients can understand. It asks for missing details, clarifies ambiguous statuses, and returns finished interface copy. It includes the Voice Align writing standard.
+I built this plugin to help automation builders write messages their clients can understand. It asks up to three short questions about missing details. It waits for required answers and remembers them. It clarifies ambiguous statuses before returning finished interface copy. It includes the Voice Align writing standard.
 
 ## Start
 
@@ -23,3 +23,9 @@ This package writes copy from information you provide. It includes no service co
 ## Local validation
 
 The package includes both plugin manifest layouts. Manifest validation confirms structure; it does not establish installation in either app. The ZIP contains the plugin folder as its top-level directory.
+
+Read [how it works](Automation-Message-Writer-HowItWorks-2026-10-03.md) for the questions, steps, and results.
+
+## License
+
+MIT. See [LICENSE](LICENSE).

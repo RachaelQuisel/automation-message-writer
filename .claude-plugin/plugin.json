@@ -1,6 +1,6 @@
 {
   "name": "automation-message-writer",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Interactively turn automation results into finished interface messages that nontechnical clients understand.",
   "author": {
     "name": "Rachael Quisel"
@@ -13,5 +13,8 @@
     "client-messages"
   ],
   "displayName": "Automation Message Writer",
-  "icon": "./assets/automation-message-writer.png"
+  "icon": "./assets/automation-message-writer.png",
+  "license": "MIT",
+  "repository": "https://github.com/RachaelQuisel/automation-message-writer",
+  "homepage": "https://github.com/RachaelQuisel/automation-message-writer"
 }

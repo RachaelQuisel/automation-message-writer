@@ -5,11 +5,14 @@ description: Interactively write finished automation result messages for nontech
 
 # Automation Message Writer
 
+Read [the conversation and writing rules](references/conversation-and-writing.md) before responding. Apply them to all user-facing text.
+
+
 The default reader is the client, with no assumed technical knowledge. The default deliverable is finished interface messages. Explain what happened to the relevant item and why it matters. Include a next step when one is needed and supported.
 
 ## Start with interactive intake
 
-Read the context and retain the user's answers. Prompt for what is missing rather than expecting a complete brief. Ask one focused question or a small group of related questions at a time. Do not repeat questions already answered.
+Read the context and retain the user's answers. Prompt for what is missing rather than expecting a complete brief. Ask up to three short questions about missing details at a time. Wait for answers before drafting any text that depends on them. Do not repeat questions already answered.
 
 If the user starts without inputs, begin: “What automation result should the client see? Paste the current message or describe what happened. Where will the message appear?” Accept pasted text, screenshots, sample outputs, or a plain-language explanation.
 

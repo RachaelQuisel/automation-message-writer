@@ -1,6 +1,6 @@
 # Automation Message Writer
 
-*Make every result make sense.*
+*Make automation results clear.*
 
 Turn automation statuses into finished interface messages your clients can understand. Explain what happened, which item it affects, and why it matters.
 
@@ -9,7 +9,7 @@ Turn automation statuses into finished interface messages your clients can under
 - Writes for clients without technical knowledge.
 - Applies Voice Align’s writing rules.
 
-How it works: Share the current message or describe the result. Answer the questions about missing details. Get finished interface copy. Estimated time: five minutes for a short message once its facts are clear.
+How it works: Share the current message or describe the result. Answer the questions about missing details. Get finished interface copy. The required time depends on how much context is missing.
 
 ## Name recommendation
 
