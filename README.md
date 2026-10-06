@@ -2,6 +2,17 @@
 
 I built this plugin to help automation builders write messages their clients can understand. It asks up to three short questions about missing details. It waits for required answers and remembers them. It clarifies ambiguous statuses before returning finished interface copy. It includes the Voice Align writing standard.
 
+## Install
+
+In Claude Code, add this repository as a marketplace and install the plugin by name:
+
+```text
+claude plugin marketplace add RachaelQuisel/automation-message-writer
+claude plugin install automation-message-writer@automation-message-writer
+```
+
+The marketplace catalog is `.claude-plugin/marketplace.json`. It lists this repository root as the plugin source, next to `.claude-plugin/plugin.json`.
+
 ## Start
 
 In Codex, invoke `$automation-message-writer` after adding the plugin or skill. In Claude Code, invoke `/automation-message-writer:automation-message-writer` after loading the plugin.

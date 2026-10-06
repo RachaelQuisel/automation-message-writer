@@ -1,0 +1,31 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "automation-message-writer",
+  "description": "Interactively turn automation results into finished interface messages that nontechnical clients understand.",
+  "owner": {
+    "name": "Rachael Quisel"
+  },
+  "plugins": [
+    {
+      "name": "automation-message-writer",
+      "source": "./",
+      "description": "Interactively turn automation results into finished interface messages that nontechnical clients understand.",
+      "version": "0.2.0",
+      "author": {
+        "name": "Rachael Quisel"
+      },
+      "displayName": "Automation Message Writer",
+      "homepage": "https://github.com/RachaelQuisel/automation-message-writer",
+      "repository": "https://github.com/RachaelQuisel/automation-message-writer",
+      "license": "MIT",
+      "keywords": [
+        "automation",
+        "interface-copy",
+        "plain-english",
+        "zite",
+        "client-messages"
+      ],
+      "category": "Productivity"
+    }
+  ]
+}
