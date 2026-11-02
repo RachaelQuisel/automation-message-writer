@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "repository": "RachaelQuisel/automation-message-writer",
+  "packages": [
+    {
+      "name": "automation-message-writer",
+      "root": ".",
+      "version": "1.0.3",
+      "manifests": [
+        "plugin.json",
+        ".claude-plugin/plugin.json",
+        ".codex-plugin/plugin.json"
+      ],
+      "skills": [
+        "skills/automation-message-writer/SKILL.md"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "path": "skills/automation-message-writer/SKILL.md",
+      "version": "1.0.3",
+      "sha256": "f725e8decf8d86452e0bf48c8f9eae0b1c588745eebd613fda94abffd16ed08e",
+      "source": "skills/automation-message-writer/SKILL.md",
+      "guide": "skills/automation-message-writer/README.md"
+    }
+  ],
+  "copies": []
+}

@@ -1,9 +1,23 @@
 ---
 name: automation-message-writer
+version: 1.0.3
 description: Interactively write finished automation result messages for nontechnical clients, especially in Zite interfaces. Prompt for missing inputs, clarify unclear outcomes, and apply the included Voice Align writing rules. Also support Zite builder prompts when requested. Not a full automation documentation or workflow audit skill.
 ---
 
 # Automation Message Writer
+
+## Purpose in plain English
+
+This skill helps you write clear messages explaining an automation's result to the people who use it.
+
+## How to explain the result
+
+For a client-facing explanation, use ordinary words and the requested format. Explain unfamiliar abbreviations. Name what each number counts and explain its practical meaning. Keep internal identifiers out of the explanation. Keep necessary technical details in the working steps and technical references.
+
+## Following the process
+
+Use the process below. Preserve its conditions, commands, checks, and approval rules. Use information the user already supplied. Follow the existing questions or stopping rules when required information is missing.
+
 
 Read [the conversation and writing rules](references/conversation-and-writing.md) before responding. Apply them to all user-facing text.
 

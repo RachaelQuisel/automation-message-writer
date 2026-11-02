@@ -1,9 +1,26 @@
 {
-  "name": "automation-message-writer",
-  "version": "0.2.0",
-  "description": "Interactively turn automation results into finished interface messages that nontechnical clients understand.",
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "author": {
     "name": "Rachael Quisel"
+  },
+  "description": "Interactively turn automation results into finished interface messages that nontechnical clients understand.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "brandColor": "#D2BED1",
+        "capabilities": [],
+        "category": "Productivity",
+        "composerIcon": "./assets/automation-message-writer.png",
+        "defaultPrompt": [
+          "Use $automation-message-writer to help me write client-facing automation messages. Ask me for the details you need."
+        ],
+        "developerName": "Rachael Quisel",
+        "displayName": "Automation Message Writer",
+        "logo": "./assets/automation-message-writer.png",
+        "longDescription": "Make every result make sense. Share an automation result, answer focused questions, and get finished interface messages. The plugin clarifies unclear statuses and uses the included Voice Align writing rules.",
+        "shortDescription": "Write clear result messages"
+      }
+    }
   },
   "keywords": [
     "automation",
@@ -12,22 +29,7 @@
     "zite",
     "client-messages"
   ],
-  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "extensions": {
-    "com.openai": {
-      "interface": {
-        "displayName": "Automation Message Writer",
-        "shortDescription": "Interactive message writing for nontechnical clients",
-        "longDescription": "Make every result make sense. Share an automation result, answer focused questions, and get finished interface messages. The plugin clarifies unclear statuses and uses the included Voice Align writing rules.",
-        "developerName": "Rachael Quisel",
-        "category": "Productivity",
-        "capabilities": [],
-        "defaultPrompt": [
-          "Use $automation-message-writer to help me write client-facing automation messages. Ask me for the details you need."
-        ],
-        "brandColor": "#D2BED1"
-      }
-    }
-  },
-  "license": "MIT"
+  "license": "MIT",
+  "name": "automation-message-writer",
+  "version": "1.0.3"
 }

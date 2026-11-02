@@ -1,0 +1,31 @@
+{
+  "interface": {
+    "brandColor": "#D2BED1",
+    "capabilities": [],
+    "category": "Productivity",
+    "composerIcon": "./assets/automation-message-writer.png",
+    "defaultPrompt": [
+      "Use $automation-message-writer to help me write client-facing automation messages. Ask me for the details you need."
+    ],
+    "developerName": "Rachael Quisel",
+    "displayName": "Automation Message Writer",
+    "logo": "./assets/automation-message-writer.png",
+    "longDescription": "Make every result make sense. Share an automation result, answer focused questions, and get finished interface messages. The plugin clarifies unclear statuses and uses the included Voice Align writing rules.",
+    "shortDescription": "Write clear result messages"
+  },
+  "name": "automation-message-writer",
+  "version": "1.0.3",
+  "description": "Interactively turn automation results into finished interface messages that nontechnical clients understand.",
+  "author": {
+    "name": "Rachael Quisel"
+  },
+  "keywords": [
+    "automation",
+    "interface-copy",
+    "plain-english",
+    "zite",
+    "client-messages"
+  ],
+  "license": "MIT",
+  "skills": "./skills"
+}
