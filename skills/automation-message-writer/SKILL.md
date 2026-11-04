@@ -1,6 +1,6 @@
 ---
 name: automation-message-writer
-version: 1.0.3
+version: 1.0.4
 description: Interactively write finished automation result messages for nontechnical clients, especially in Zite interfaces. Prompt for missing inputs, clarify unclear outcomes, and apply the included Voice Align writing rules. Also support Zite builder prompts when requested. Not a full automation documentation or workflow audit skill.
 ---
 
