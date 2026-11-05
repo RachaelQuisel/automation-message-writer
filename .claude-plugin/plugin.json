@@ -1,6 +1,6 @@
 {
   "name": "automation-message-writer",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Interactively turn automation results into finished interface messages that nontechnical clients understand.",
   "author": {
     "name": "Rachael Quisel"

@@ -5,7 +5,7 @@
     {
       "name": "automation-message-writer",
       "root": ".",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "manifests": [
         "plugin.json",
         ".claude-plugin/plugin.json",
@@ -19,8 +19,8 @@
   "skills": [
     {
       "path": "skills/automation-message-writer/SKILL.md",
-      "version": "1.0.4",
-      "sha256": "f2bed4da51ce4756346e0f8df4453cd79885154b1397ccd049878fc7fe0853a2",
+      "version": "1.0.5",
+      "sha256": "9e741308856ee5b63eee60f020d7a71e057d3358213737efa3385ac1959e5481",
       "source": "skills/automation-message-writer/SKILL.md",
       "guide": "skills/automation-message-writer/README.md"
     }
